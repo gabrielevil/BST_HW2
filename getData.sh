@@ -1,0 +1,4 @@
+#!/bin/sh
+prefetch ERR204044 SRR15131330 SRR18214264
+
+fastq-dump --gzip --split-files ERR204044 SRR15131330 SRR18214264
